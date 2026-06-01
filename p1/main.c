@@ -4,7 +4,7 @@ int main(void)
 {
     char eng[10] = { };
     int maxIndex=0;
-    char *p, *q;
+    char *p=nullptr, *q=nullptr;
     
     for(p=eng; p<eng+10; p++) {
         scanf("%c", p);
